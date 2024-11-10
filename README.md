@@ -36,20 +36,29 @@ ensure Xotiic-DrugsDealing
 ### My Youtube
 - https://www.youtube.com/@Xotiic-scripts
 
-- ### Item installation
+
+
+### Item installation
 
 - add these to ur ox_inventory/data/items.lua
 ```lua
 -- Xoticc-DrugItems
-['meth_brick'] = {
-		label = 'Meth Brick',
+	["mystry_package"] = {
+		label = "Sus Package",
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Heavy package of Drugs,",
+		client = {
+			image = "mystry_package.png",
+		}
 	},
 ```
 
 - add these to ur qb-core/shared/items.lua if using qb-inventory
 ```lua
 -- Xoticc-DrugItems
-['meth_brick'] 	         			 = {['name'] = 'meth_brick', 						['label'] = 'Meth Brick', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'meth_brick.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Meth Brick?'},
+['mystry_package'] 	         			 = {['name'] = 'mystry_package', 						['label'] = 'Sus Package', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'mystry_package.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Sus Package?'},
 ```
 
 
