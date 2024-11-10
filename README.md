@@ -35,3 +35,25 @@ ensure Xotiic-DrugsDealing
 
 ### My Youtube
 - https://www.youtube.com/@Xotiic-scripts
+
+- ### Item installation
+
+- add these to ur ox_inventory/data/items.lua
+```lua
+-- Xoticc-DrugItems
+['meth_brick'] = {
+		label = 'Meth Brick',
+	},
+```
+
+- add these to ur qb-core/shared/items.lua if using qb-inventory
+```lua
+-- Xoticc-DrugItems
+['meth_brick'] 	         			 = {['name'] = 'meth_brick', 						['label'] = 'Meth Brick', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'meth_brick.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Meth Brick?'},
+```
+
+
+### Adding Images
+
+- go to the images folder and add the image into ox_inventory/web/images for ox_inventory
+- go to images folder and add the image to qb-inventory/html/images for qb-inventory
