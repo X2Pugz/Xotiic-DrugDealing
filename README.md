@@ -13,6 +13,7 @@ Fivem Custom QBCore Drug Dealing Scripts That Allows Players To Speak To A Npc T
 
 ## Video Previews
 - https://streamable.com/4zqah6
+- https://www.youtube.com/watch?v=dhAHBakAKnc
 
 ## Dependencies
 - ox_lib https://github.com/overextended/ox_lib
