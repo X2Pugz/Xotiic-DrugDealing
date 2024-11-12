@@ -27,8 +27,6 @@ Fivem Custom QBCore Drug Dealing Scripts That Allows Players To Speak To A Npc T
 ```
 ensure Xotiic-DrugsDealing
 ```
-### Item installation
-- uses base qb weed and coke brick but can also be changed to ur own items through the config.lua
 
 ### My Discord
 - https://discord.gg/ZkP8mr9c
