@@ -12,8 +12,7 @@ Fivem Custom QBCore Drug Dealing Scripts That Allows Players To Speak To A Npc T
 - supports ox_inventory and qb-inventory can change in the config
 
 ## Video Previews
-- 
-- 
+- https://www.youtube.com/watch?v=UppBc1_LEBw
 
 ## Dependencies
 - ox_lib https://github.com/overextended/ox_lib
