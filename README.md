@@ -12,21 +12,26 @@ Fivem Custom QBCore Drug Dealing Scripts That Allows Players To Speak To A Npc T
 - supports ox_inventory and qb-inventory can change in the config
 
 ## Video Previews
-- https://streamable.com/4zqah6
-- https://www.youtube.com/watch?v=dhAHBakAKnc
+- 
+- 
 
 ## Dependencies
 - ox_lib https://github.com/overextended/ox_lib
 - qb-target or ox_target
 - qb-inventory or ox_inventory
+- https://github.com/Project-Sloth/ps-dispatch 
 
 # How to install
  
 - Drag and drop folder into ur resources folder
 - add this to ur server.cfg
+- ensure ox_lib before qb-core
 ```
 ensure Xotiic-DrugsDealing
 ```
+- run the install.sql file in your server database
+
+
 
 ### My Discord
 - https://discord.gg/ZkP8mr9c
@@ -35,32 +40,9 @@ ensure Xotiic-DrugsDealing
 - https://www.youtube.com/@Xotiic-scripts
 
 
+### admin command 
+ ```/adddrugsxp [targetid] [xp]```
 
-### Item installation
-
-- add these to ur ox_inventory/data/items.lua
-```lua
--- Xoticc-DrugItems
-	["mystry_package"] = {
-		label = "Sus Package",
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = "Heavy package of Drugs,",
-		client = {
-			image = "mystry_package.png",
-		}
-	},
-```
-
-- add these to ur qb-core/shared/items.lua if using qb-inventory
-```lua
--- Xoticc-DrugItems
-['mystry_package'] 	         			 = {['name'] = 'mystry_package', 						['label'] = 'Sus Package', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'mystry_package.png', 				['unique'] = false, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Sus Package?'},
-```
-
-
-### Adding Images
-
-- go to the images folder and add the image into ox_inventory/web/images for ox_inventory
-- go to images folder and add the image to qb-inventory/html/images for qb-inventory
+ ### Massive Thank to sams for adding the lvl system and all the new featrus
+ - show some love
+ - https://github.com/MinoSuve
