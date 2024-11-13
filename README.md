@@ -45,3 +45,6 @@ ensure Xotiic-DrugsDealing
  ### Massive Thank to sams for adding the lvl system and all the new featrus
  - show some love
  - https://github.com/MinoSuve
+
+ ### Config
+ - ![config.lua](image.png)
