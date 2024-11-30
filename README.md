@@ -1,6 +1,7 @@
 # Xotiic-DrugDealing
 Fivem Custom QBCore Drug Dealing Scripts That Allows Players To Speak To A Npc To Get A Mission To deliver To A Trap House
-Advance Level System To Keep Track Of Drug XP
+Advance Level System To Keep Track Of Deals
+Police Dispatch Notifcations
 
 - Highly Customisable Within The Config.lua
 - Locations Can Be Changed For Delivery Via Config
